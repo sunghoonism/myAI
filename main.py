@@ -1,11 +1,6 @@
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return 'Hello World!'
-
-@app.route('/test')
-def test():
-    """Return a friendly HTTP greeting."""
     return 'It is test'
 
 if __name__ == '__main__':
